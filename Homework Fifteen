@@ -1,0 +1,28 @@
+N	Element	Selector
+		CSS
+1	Post picture	- div.post-modal-img
+2	comments section in div	- div.post-modal-comments
+3	image tag	- div.post-profile-container img
+4	a tag	- div.post-profile-container a
+5	i tag heart	- div.icons-container i.fa-heart
+6	i tag thumb	- div.icons-container i.div.icons-container i.fa-thumbs-down
+7	i tag lock	- div.icons-container i.fa-lock
+8	first strong tag	- div.post-modal-container div.d-flex div:nth-child(1) strong
+9	second strong tag	- div.post-modal-container div.d-flex div:nth-child(2) strong
+10	div with class	- div.post-modal-container div.post-date
+11	i trash	- div.post-modal-container i.fa-trash-alt
+12	delete label	- div.post-modal-container label.delete-ask
+13	input	- div.post-modal-container form.comment-form input
+26	Post picture	.post-modal-img > img
+27	Profile pic	app-small-user-profile img
+28	Username	.post-user
+29	Post title	.post-title
+30	Comments section	.comment-list-container
+31	Like button	.fa-2x.fa-heart.far.like.ng-star-inserted
+32	Lock button	.fa-unlock.fas.ng-star-inserted
+33	Like counter	.post-modal-comments strong
+34	Post date	.post-date
+35	Delete post	.fa-trash-alt.fas
+36	Comment here	.form-control.ng-invalid.ng-pristine.ng-touched
+37	Del post - YES	.delete-confirm > button:nth-of-type(1)
+38	Del post - NO	.delete-confirm > button:nth-of-type(2)
