@@ -1,0 +1,29 @@
+N	Element	Selector
+		CSS
+1	Uploud file modal	- form.form-container
+2	Header	- form.form-container > h3
+3	File container	- div.uploadfilecontainer > input
+4	File container label	- div.uploadfilecontainer > label
+5	Form input field	- div.form-group > input.file
+6	Form input placeholder	- input[placeholder="Upload Picture"]
+9	label	- span label.custom-control-label
+10	input	- input#customSwitch2
+11	form button	- button#choose-file
+12	form input	- div.uploadfilecontainer > input
+13	button	- button[type="submit"]
+21	iSkillo picture	#homeIcon
+22	Home Btn	#nav-link-home
+23	New post	#nav-link-new-post
+24	Search Bar	#search-bar
+25	Exit btn	.fa-lg.fa-sign-out-alt.fas
+26	Upload Pic	.uploadfilecontainer
+27	Browse button	#choose-file
+28	Upload picture text field	.form-control.input-lg
+29	Public/private switch	.custom-control-label.post-status-label
+30	Create post btn	#create-post
+51	Uploud Container	.container .row
+52	Container Header	h3.text-center
+53	Uploud file container	.uploadfilecontainer
+54	Uploud file label	.uploadfilecontainer label
+55	Browse button	#choose-file
+56	Caption text field	.input-group-addon
