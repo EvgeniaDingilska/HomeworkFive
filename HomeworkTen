@@ -1,0 +1,49 @@
+package com.mentormate;
+
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+public class HomeworkTen {
+
+    @DataProvider(name="data-provider1")
+    public Object[][] dpMethod1() {return new Object [][]{{9, 3}};}
+
+    @Test(dataProvider = "data-provider1", groups = "One")
+    public void sum(int a, int b)
+    {
+        int sum = a + b;
+        SoftAssert softAssert = new SoftAssert();
+        softAssert.assertTrue(sum <a); //fail
+    }
+
+    @Test(dataProvider = "data-provider1", groups = "Two")
+    public void substring(int a, int b)
+    {
+        int sub = a - b;
+        Assert.assertTrue(sub <a);
+    }
+
+    @Test(dataProvider = "data-provider1", groups = "Tree")
+    public void multiplication(int a, int b)
+    {
+        int mul = a * b;
+        Assert.assertTrue(mul > a);
+    }
+
+    @Test(dataProvider = "data-provider1", groups = "Four")
+    public void division(int a, int b)
+    {
+        int div = a / b;
+        Assert.assertTrue(div > a); //fail
+    }
+
+    @Test(dataProvider = "data-provider1", groups = "Five")
+    public void divisionWithReminder(int a, int b)
+    {
+        int div = a % b;
+        Assert.assertTrue(div!=3);
+        Assert.assertTrue(div > 3); //fail
+    }
+}
